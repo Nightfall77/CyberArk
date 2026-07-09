@@ -1,6 +1,13 @@
 #Requires -Modules psPAS
 
+# 
 
+DESCRIPTION
+    Connects to CyberArk via psPAS, retrieves all safes and their members,
+    and exports a detailed permission report to CSV and optionally HTML.
+
+    Useful for: access reviews, compliance audits, least-privilege validation.
+#
 
 [CmdletBinding()]
 param(
