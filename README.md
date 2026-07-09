@@ -1,12 +1,31 @@
-# CyberArk Bulk Account Onboarding Templates
+# CyberArk PAM Demo Projects 
 
 ## Overview
 
-This repository contains sample CyberArk bulk account onboarding templates for different platforms along with detailed documentation explaining each column, when it is required, and common onboarding practices.
+#	Project	Description
+01	Safe Membership Audit	- Full safe-member permission export with risk flagging
+02	Bulk Account Onboarding	- CSV-driven bulk onboarding with duplicate detection and dry-run
+03	Dormant Account Report	- Dormancy detection + CPM reconciliation failure reporting
+
 
 The examples are based on a fictional enterprise environment and are intended for learning and interview preparation.
 
 ---
+Prerequisites
+```powershell
+# Install psPAS (all projects depend on this)
+Install-Module psPAS -Scope CurrentUser
+```
+PowerShell 5.1+ or PowerShell 7+
+CyberArk REST API enabled on PVWA
+Appropriate CyberArk permissions per project (see individual READMEs)
+---
+Security Notes
+No credentials are ever stored in scripts or config files. All scripts use interactive `Get-Credential` prompts.
+For production/scheduled use, integrate with CyberArk AIM/CCP or Conjur to retrieve credentials at runtime.
+Always test with `-WhatIf` or against a non-production vault before running in prod.
+Never commit real vault URLs, usernames, or any account data to version control.
+
 
 ## Included Platforms
 
