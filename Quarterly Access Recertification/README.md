@@ -13,7 +13,7 @@ Inventory of privileged users including role, platform, last access date, and ac
 Records exceptions identified during the review along with risk ratings and remediation actions. This is the output of both the abouve reports where we note down accounts we need to take action on. Basically we make tickets out of each row and follow up!
 
 ### 4. Sign-off Tracker
-Tracks certification completion by Safe Owners and identifies outstanding reviews.
+Tracks certification completion by Safe Owners and identifies outstanding reviews. Its the finnal phase of recertification process where we just keep track of closing off tickets and complete this process. 
 
 
 ## Skills Demonstrated
