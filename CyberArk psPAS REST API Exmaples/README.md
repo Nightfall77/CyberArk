@@ -4,13 +4,11 @@ A collection of PowerShell automation scripts for CyberArk Privileged Access Man
 
 These projects simulate common operational tasks performed by CyberArk PAM Administrators and IAM Analysts, including access audits, bulk account onboarding, and privileged account compliance reporting.
 
-
-
 # Projects
 
----| **01 – Safe Membership Audit** | Exports Safe members, permissions, and identifies over-privileged access. | Audit Users / Safe Manager |
----| **02 – Bulk Account Onboarding** | Bulk onboards privileged accounts from a CSV file with duplicate detection and dry-run support. | Add Accounts |
----| **03 – Dormant Account Report** | Identifies dormant privileged accounts and reports stale CPM password management activity. | Audit Users |
+| **01 – Safe Membership Audit** | Exports Safe members, permissions, and identifies over-privileged access. | Audit Users / Safe Manager permission needed |
+| **02 – Bulk Account Onboarding** | Bulk onboards privileged accounts from a CSV file with duplicate detection and dry-run support. | Add Accounts permission needed |
+| **03 – Dormant Account Report** | Identifies dormant privileged accounts and reports stale CPM password management activity. | Audit Users needed|
 
 # Good Practices
 
@@ -40,4 +38,4 @@ This repository was created as a portfolio project to demonstrate practical Cybe
 
 # Note
 
-All data, account names, Safe names, servers, IP addresses, and reports included in this repository are fictional and intended solely for demonstration and learning purposes. No production data or customer information is included.
+All data, account names, Safe names, servers, IP addresses, and reports included in this repository are fictional and intended solely for demonstration and for recuitment purposes. csv files has extra columns which is not reflcted in the script to make logic main focus and to simplify scripting for potential employers!!
