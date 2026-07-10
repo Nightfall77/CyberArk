@@ -1,0 +1,11 @@
+Safe Name,Member,Member Type,Permissions,Last Access,Decision,Admin Comments
+Windows-Infra,Ellie Smith,User,"Use, Retrieve, List",2026-07-05,Certify,Access still required
+Windows-Infra,helpdesk.admin,User,"Use, Retrieve",2026-02-15,Remove,No recent activity
+Unix-Production,unix.admin,User,Full Control,2026-07-08,Certify,Valid administrator
+Oracle-DB,oracle.dba,User,"Use, Retrieve",2026-07-01,Certify,DBA responsibility
+SQL-Servers,sql.temp,User,Retrieve,2026-01-10,Escalate,Temporary access not removed
+Application-Safes,svc_backup,User,Use,2026-07-06,Certify,Service account
+Domain-Admins,contractor01,User,"Use, Retrieve",2026-03-20,Remove,Contract completed
+Finance-App,finance.support,User,Use,2026-07-07,Certify,Business approved
+Linux-Servers,linux.ops,User,Full Control,2026-07-08,Certify,Operations team
+Shared-Services,old.admin,User,Use,2025-12-05,Remove,Dormant account
