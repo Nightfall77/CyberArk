@@ -1,0 +1,7 @@
+AccountId,AccountName,Username,Address,SafeName,PlatformId,LastRetrievedDate,DaysSinceRetrieval,DormancyThreshold,DormancyRisk,RecommendedAction
+78abc123,srv-old01-admin,Administrator,srv-old01.corp.local,IT-Infra-Windows,WinServerLocal,Never / Unknown,Never,90,Critical,Review account never retrieved
+52def456,db-ora-legacy-sys,sys,db-legacy.corp.local,DB-Oracle-Prod,Oracle,2023-08-14 09:22,307,90,Critical,Disable or remove account
+91ghi789,lnx-decom-root,root,lnx-decom02.corp.local,IT-Infra-Linux,UnixSSH,2023-11-01 14:05,229,90,Critical,Disable or remove account
+34jkl012,rtr-branch-admin,admin,192.168.50.1,Network-Devices,CiscoRouter,2024-01-15 08:30,154,90,High,Disable or remove account
+67mno345,sw-old-dist-admin,admin,192.168.50.2,Network-Devices,CiscoSwitch,2024-02-28 11:45,110,90,High,Disable or remove account
+22pqr678,sf-svc-old-admin,svc_sf_old,login.salesforce.com,SaaS-Accounts,SalesforceAdmin,2024-03-10 16:20,99,90,High,Disable or remove account
