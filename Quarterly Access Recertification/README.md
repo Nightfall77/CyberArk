@@ -10,7 +10,7 @@ Review of Safe members, assigned permissions, and certification decisions.The sa
 Inventory of privileged users including role, platform, last access date, and account status. This data is drawn from rports and can be made even richer with additional columns like her direct report/Manager. We will be on the lookout for usual suspects and outliers like - inactivity, disabled AD, contractors, shared/ domain accounts etc and then review with safe owners and recertify.  
 
 ### 3. Exceptions Log
-Records exceptions identified during the review along with risk ratings and remediation actions.
+Records exceptions identified during the review along with risk ratings and remediation actions. This is the output of both the abouve reports where we note down accounts we need to take action on. Basically we make tickets out of each row and follow up!
 
 ### 4. Sign-off Tracker
 Tracks certification completion by Safe Owners and identifies outstanding reviews.
