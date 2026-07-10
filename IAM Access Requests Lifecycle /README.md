@@ -1,6 +1,6 @@
 This project simulates an enterprise IAM/PAM operations tracker used by CyberArk administrators and IAM analysts to manage privileged access requests throughout their lifecycle.
 
-##The tracker demonstrates:
+##The Tracker Demonstrates:
 
 -Access Request Management
 -Approval Workflow
