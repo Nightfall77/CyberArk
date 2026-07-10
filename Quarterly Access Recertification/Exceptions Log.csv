@@ -1,0 +1,6 @@
+Exception ID,Finding,Risk,Recommendation,Owner,Target Date,Status
+EX-001,Dormant privileged account,High,Remove account,IAM Team,2026-07-20,Open
+EX-002,Contractor retains Safe access,High,Remove Safe membership,CyberArk Team,2026-07-18,Open
+EX-003,Missing business owner approval,Medium,Obtain approval,Application Owner,2026-07-22,In Progress
+EX-004,Temporary access exceeded expiry,High,Revoke access,IAM Team,2026-07-19,Open
+EX-005,Excessive Safe permissions,Medium,Apply least privilege,CyberArk Team,2026-07-25,Planned
