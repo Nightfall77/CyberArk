@@ -1,0 +1,9 @@
+SafeName,PlatformId,Address,Username,AccountName,SecretType,Environment,Password ,Device type ,Port ,Domain,Logon Account ,Reconcile Account ,Disable Auto Mgmt,Disable CPM,Group Name,Policy ID,ExtraPass1 Name,ExtraPass Safe ,ExtraPass2 Name,Description,Properties 
+IT-Infra-Windows,WinServerLocal,srv-dc01.corp.local,Administrator,srv-dc01-admin,Password,Production,,Windows ,3389,Corp,WinLogon,WinReconcile,No,No,DomainControllers,,,,,Domian Controller Local Administrator,
+IT-Infra-Windows,WinServerLocal,srv-app02.corp.local,Administrator,srv-app02-admin,Password,Production,,Windows ,3389,Corp,WinLogon,WinReconcile,No,No,ApplicationServers ,,,,,Application Server Local Administrator,
+DB-Oracle-Prod,Oracle,db-ora01.corp.local,sys,db-ora01-sys,Password,Production,,DataBase,1521,,,recon_oracle,No,No,OracleServers,,,,,Oracle SYS Account,SID=ORCL
+DB-Oracle-Prod,Oracle,db-ora02.corp.local,system,db-ora02-system,Password,Production,,DataBase,1521,,,recon_oracle,No,No,OracleServers,,,,,Oracle SYS Account,SID=ORCL
+Network-Devices,CiscoRouter,192.168.10.1,admin,rtr-core01-admin,Password,Production,,Routers/Switches,22,,,,No,No,CoreRouters,,,,,Cisco Core Router Admin,
+Network-Devices,CiscoSwitch,192.168.10.2,admin,sw-dist01-admin,Password,Production,,Routers/Switches,22,,,,No,No,DistributionSwitches,,,,,Cisco Distribution Switch Admin,
+IT-Infra-Linux,UnixSSH,lnx-web01.corp.local,root,lnx-web01-root,Password,Production,,Unix,22,,,Root-reconcile,No,No,LinuxServers,,SSHKey,UnixKeys ,,Linux Root Account,
+SaaS-Accounts,SalesforceAdmin,login.salesforce.com,svc_sf_admin,salesforce-svc-admin,Password,Production,,Application,443,,,,No,No,CloudApplications,,MFASecret,SaaSSecrets,,Salesforce Service Account,
