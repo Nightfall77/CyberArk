@@ -1,0 +1,7 @@
+Safe Name,Safe Owner,Review Status,Date Certified,Outstanding Items
+Windows-Infra,Sarah Lee,Completed,2026-07-09,0
+Unix-Production,Mike Wilson,Completed,2026-07-09,0
+Oracle-DB,Kevin Adams,Pending,-,2
+SQL-Servers,Kevin Adams,Completed,2026-07-08,1
+Domain-Admins,Sarah Lee,In Progress,-,3
+Finance-App,Lisa Brown,Completed,2026-07-09,0
