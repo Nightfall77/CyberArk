@@ -1,0 +1,9 @@
+User,Role,Platform,Safe,Last Access,Account Status
+john.smith,Windows Administrator,WinDomain,Windows-Infra,2026-07-05,Active
+unix.admin,Linux Administrator,UnixSSH,Unix-Production,2026-07-08,Active
+oracle.dba,Database Administrator,Oracle,Oracle-DB,2026-07-01,Active
+sql.admin,SQL DBA,MSSQL,SQL-Servers,2026-07-06,Active
+helpdesk.admin,Help Desk,WinDomain,Windows-Infra,2026-02-15,Inactive
+contractor01,Contractor,WinDomain,Domain-Admins,2026-03-20,Expired
+finance.support,Application Support,Windows,Finance-App,2026-07-07,Active
+svc_backup,Service Account,Windows,Application-Safes,Automated,Active
