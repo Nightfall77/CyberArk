@@ -1,0 +1,8 @@
+Account,SafeName,Target System,Reason,DecomissionDate,ApprovedBy
+svc_backup,Windows-Infra,WIN_APP01,Server Decomission,01-06-2026,Sarah Lee
+oracle_admin_old,Oracle-DB,ORA_PRD01,Dormant Account ,02-06-2026,Elia Lea
+sql_service_01,MSSQL-Servers,SQL_PRD01,Application Retired ,02-06-2026,Rishabh Kumar
+unix_root_temp,Unix-Production,LNX_DB01,Temporary Access Expired ,04-06-2026,Amulya Syrene
+src_web_03,WebApplications,WEB_APP03,Project Deivered,05-06-2026,Kevin Preent
+app_admin01,AppServices,APP_SVR01,Role Change ,05-06-2026,Kevin Preent
+win-_admin_03,Windows-Infra,WIN_APP03,Employee Onboarded,08-06-2026,Sarah Lee

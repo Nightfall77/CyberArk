@@ -1,0 +1,11 @@
+RequestID,Requester,AccountType ,TargetSystem,SafeName,Platform,Approver,DateRequested,DateCompleted,Status,Comments
+270063,John Smith,Windows Admin,WIN_APP03,Windows-Infra,WinDomain,Sarah Lee,02-06-2026,02-06-2026,Completed,Password Managed by CPM
+453218,David Brown,Unix Root,LNX_DB01,Unix-Production,UnixSSH,Amulya Syrene,02-03-2026,02-04-2026,Completed,Password Managed by CPM
+367219,Emily Davis ,Oracle DBA,ORA_PRD02,Oracle-DB,Oracle,Elia Lea,02-03-2026,,PendingApproval,Safe being Configured
+677668,Michael Scott,SQL Service,SQL_PRD02,MYSQL-Servers,MSSQL,Rishabh Kumar,02-05-2026,02-05-2026,Completed ,Account Onboarded
+165309,Lisa Miller ,Application Account,APP_SRV01,App-Servers,Windows,Kevin Preent,02-05-2026,02-06-2026,Rejected,Business Justification Missing
+166590,Kevin Thomas,Linux Service,LNX_WEB09,Linux-Servers,UnixSSH,Amulya Syrene,02-05-2026,02-05-2026,Completed,Access Approved
+316531,Rachel Good,Windows Admin,WIN_FILE01,Windows-Infra,WinDomain,Sarah Lee,02-07-2026,02-07-2026,Rejected,Safe no Longer used
+577882,Daniel Clark,Oracle DBA,ORA_UAT01,Oracle-UAT,Oracle,Elia Lea,02-07-2026,,InProgress,PSM Connection Tested
+342210,Sophia White ,SQL DBA,SQL_DEV01,SQL-Development,MSSQL,Rishabh Kumar,02-02-2026,02-02-2026,Completed,Safe Permission Assigned
+162432,Rene Evans,Unix Root,LNX_APP02,Unix-Production,UnixSSH,Amulya Syrene,02-02-2026,02-02-2026,Completed,Access Approved
