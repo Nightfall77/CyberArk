@@ -4,7 +4,7 @@ This project simulates a quarterly privileged access recertification exercise we
 
 
 ### 1. Safe Membership Review
-Review of Safe members, assigned permissions, and certification decisions.
+Review of Safe members, assigned permissions, and certification decisions. This project simulates a quarterly privileged access recertification process. The sample data represents the type of information typically exported from CyberArk reports/logs/AD/SIEM and then reviewed by Safe Owners. Based on the review decisions, the CyberArk administration team would remove unnecessary access, escalate exceptions, or certify existing permissions.
 
 ### 2. Privileged User Register
 Inventory of privileged users including role, platform, last access date, and account status.
