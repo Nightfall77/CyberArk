@@ -1,12 +1,8 @@
 # IAM Request Lifecycle Tracker
 
-## Overview
-
 This project simulates an enterprise **IAM/PAM operations tracker** similar to those used by CyberArk administrators and IAM analysts to manage privileged access requests throughout their lifecycle.
 
 The tracker is designed to demonstrate how privileged access requests are recorded, approved, fulfilled, monitored, and eventually decommissioned in an enterprise environment.
-
----
 
 ## Project Contents
 
@@ -27,8 +23,6 @@ Tracks privileged access requests from submission through completion.
 - Status
 - Notes
 
----
-
 ###  Decommission Log
 Maintains a record of privileged accounts that have been removed from CyberArk.
 
@@ -40,7 +34,6 @@ Maintains a record of privileged accounts that have been removed from CyberArk.
 - Decommission Date
 - Approved By
 
----
 
 ###  SLA Tracker
 Monitors request fulfillment against defined service level agreements.
@@ -51,7 +44,6 @@ Monitors request fulfillment against defined service level agreements.
 - Actual Completion Time
 - SLA Status
 
----
 
 ## The Tracker Demonstrates
 
@@ -64,8 +56,6 @@ Monitors request fulfillment against defined service level agreements.
 - Audit Readiness
 - Operational Reporting
 
----
-
 ## Skills Demonstrated
 
 - CyberArk PAM Operations
@@ -74,9 +64,7 @@ Monitors request fulfillment against defined service level agreements.
 - Service Request Management
 - Excel Reporting
 - Audit Documentation
-
----
-
+- 
 ## Sample Technologies & Platforms
 
 - CyberArk PAM
@@ -86,10 +74,4 @@ Monitors request fulfillment against defined service level agreements.
 - Microsoft SQL Server
 - Application Accounts
 
----
-
-## Purpose
-
-This project was created as a portfolio exercise to showcase practical knowledge of IAM/PAM operational processes, request lifecycle management, and audit documentation using realistic enterprise sample data.
-
-> **Note:** All data in this project is fictional and intended solely for demonstration purposes.
+This project was created as a portfolio exercise to showcase practical knowledge of IAM/PAM operational processes, request lifecycle management, and audit documentation using realistic enterprise sample data. All data in this project is fictional and intended solely for demonstration purposes.
